@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>केक ऑर्डर करा</title>
+</head>
+<body>
+    <h1>केक ऑर्डर फॉर्म</h1>
+    <form action="order.php" method="post">
+        <input type="text" name="username" placeholder="तुमचं नाव" required>
+        <input type="text" name="cake_type" placeholder="केक प्रकार" required>
+        <input type="number" name="quantity" placeholder="संख्या" required min="1">
+        <button type="submit">ऑर्डर द्या</button>
+    </form>
+</body>
+</html>
